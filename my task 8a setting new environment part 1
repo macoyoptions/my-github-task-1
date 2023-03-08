@@ -1,0 +1,33 @@
+{
+	"id": "0be892c7-e039-4093-9645-f21a7817178b",
+	"name": "my task 8a setting new environment part 2",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "https://petstore.swagger.io/v2",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "entityid",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "entitystatus",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "entitytags",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2023-03-08T00:32:09.588Z",
+	"_postman_exported_using": "Postman/10.11.1"
+}
