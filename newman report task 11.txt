@@ -1,0 +1,355 @@
+ GET https://petstore.swagger.io/v2/pet/findByStatus?status=available&status=available [200 OK, 85.67kB, 2.5s]
+  √  Status code should be 200
+  √  Status code name should have an OK string
+  ┌
+  │ [
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   {
+  │     id: 9223372036854775000,
+  │     name: 'Jimmy',
+  │     photoUrls: [ 'string' ],
+  │     tags: [],
+  │     status: 'available'
+  │   },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854775000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   { id: 9223372036854776000, name: 'doggie', photoUrls: [],
+  │ mtags: [], status: 'available' },
+  │   ... 594 more items
+  │ ]
+  │ 9223372036854775000
+  │ 'available'
+  │ []
+  │ 9223372036854775000
+  └
+  √  id 9223372036854244880 is available
+  √  id 9223372036854596902 is available
+  √  id 9223372036854596928 is available
+  √  id 9223372036854597371 is available
+  √  id 9223372036854597543 is available
+
+└ Find pet by ID(task8a)
+  GET https://petstore.swagger.io/v2/pet/9223372036854775000 [404 Not Found, 384B, 279ms]
+  √  Status code should be 404
+  √  Status code name should be Not found
+
+□ store
+└ Returns pet inventories by status task 7a
+  GET https://petstore.swagger.io/v2/store/inventory [200 OK, 713B, 263ms]
+  √  Status code should be 200
+  √  Status code should have an OK string
+  ┌
+  │ {
+  │   string: 169,
+  │   qUZmVEyQtU: 1,
+  │   unavailable: 1,
+  │   Old: 1,
+  │   pending: 21,
+  │   available: 694,
+  │   'Not Possible': 7,
+  │   soldout: 1,
+  │   Sold: 1,
+  │   IeefUymHea: 1,
+  │   VL4EQE: 1,
+  │   sygEBXbrCM: 1,
+  │   KhYqTHURuF: 1,
+  │   'not available': 2,
+  │   solde: 1,
+  │   totvs1: 1,
+  │   XoHvhiIAAc: 1,
+  │   sold: 67,
+  │   LjpKVAXwIa: 1,
+  │   fEePXerExw: 1,
+  │   availbale: 1,
+  │   zaebala: 1,
+  │   KwvjEiMwrQ: 1,
+  │   nnbb: 1,
+  │   dog_boy: 1,
+  │   availale: 1,
+  │   pLWelMISSd: 1,
+  │   Pending: 1,
+  │   zeLZXbIdcH: 1
+  │ }
+  │ 169
+  │ 67
+  │ undefined
+  └
+  5. confirm that stringinventory is 193
+  6. confirm that soldinventory is 41
+  7. confirm that pendinginventory is 11
+
+□ user / {username}
+└ Get user by user name
+  GET https://petstore.swagger.io/v2/user/dolor dolor [404 Not Found, 385B, 280ms]
+
+└ Updated user
+  PUT https://petstore.swagger.io/v2/user/dolor dolor [200 OK, 387B, 280ms]
+
+└ Delete user
+  DELETE https://petstore.swagger.io/v2/user/dolor dolor [404 Not Found, 292B, 275ms]
+
+□ user
+└ Create user
+  POST https://petstore.swagger.io/v2/user [200 OK, 387B, 360ms]
+
+└ Logs user into the system
+  GET https://petstore.swagger.io/v2/user/login?username=dolor dolor&password=dolor dolor [200 OK, 471B, 280ms]
+
+└ Logs out current logged in user session
+  GET https://petstore.swagger.io/v2/user/logout [200 OK, 370B, 251ms]
+
+└ Creates list of users with given input array
+  POST https://petstore.swagger.io/v2/user/createWithArray [200 OK, 370B, 270ms]
+
+└ Creates list of users with given input array
+  POST https://petstore.swagger.io/v2/user/createWithList [200 OK, 370B, 309ms]
+
+┌─────────────────────────┬─────────────────────┬────────────────────┐
+│                         │            executed │             failed │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│              iterations │                   1 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│                requests │                  20 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│            test-scripts │                   5 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│      prerequest-scripts │                   0 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│              assertions │                  18 │                  7 │
+├─────────────────────────┴─────────────────────┴────────────────────┤
+│ total run duration: 26.7s                                          │
+├────────────────────────────────────────────────────────────────────┤
+│ total data received: 87.37kB (approx)                              │
+├────────────────────────────────────────────────────────────────────┤
+│ average response time: 1227ms [min: 251ms, max: 13.8s, s.d.: 2.9s] │
+└────────────────────────────────────────────────────────────────────┘
+
+  #  failure                detail
+
+ 1.  AssertionError         Status code should be 404
+                            expected response to have status code 404 but got 405
+                            at assertion:0 in test-script
+                            inside "store / order / {orderId} / Find purchase order by ID:task 8b"
+
+ 2.  AssertionError         Status code should be Not found
+                            expected response to have status reason 'Not Found' but got 'Method Not Allowed'
+                            at assertion:1 in test-script
+                            inside "store / order / {orderId} / Find purchase order by ID:task 8b"
+
+ 3.  AssertionError         Status code should be 200
+                            expected response to have status code 200 but got 400
+                            at assertion:0 in test-script
+                            inside "store / order / Place an order for a pet:task 8b"
+
+ 4.  AssertionError         Status code name have an OK string
+                            expected response to have status reason 'OK' but got 'Bad Request'
+                            at assertion:1 in test-script
+                            inside "store / order / Place an order for a pet:task 8b"
+
+ 5.  AssertionError         confirm that stringinventory is 193
+                            expected 169 to deeply equal 193
+                            at assertion:2 in test-script
+                            inside "store / Returns pet inventories by status task 7a"
+
+ 6.  AssertionError         confirm that soldinventory is 41
+                            expected 67 to deeply equal 41
+                            at assertion:3 in test-script
+                            inside "store / Returns pet inventories by status task 7a"
+
+ 7.  AssertionError         confirm that pendinginventory is 11
+                            expected 21 to deeply equal 11
+                            at assertion:4 in test-script
+                            inside "store / Returns pet inventories by status task 7a"
