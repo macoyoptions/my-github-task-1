@@ -1,0 +1,600 @@
+{
+  "id": "4f5320a7-0077-4023-ad55-ab73dcccaece",
+  "version": "2.0",
+  "name": "facebook",
+  "url": "https://www.facebook.com",
+  "tests": [{
+    "id": "889b1b0f-99c4-4f6f-8080-3b7efa05b137",
+    "name": "account cannot be searched for with a blank field",
+    "commands": [{
+      "id": "193c6e21-cc82-4fb5-b9f4-b958a169bdd5",
+      "comment": "",
+      "command": "open",
+      "target": "https://web.facebook.com/?_rdc=1&_rdr",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf144399-1118-4ec9-859e-f64627a4c58f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01af49fd-61a4-4588-8caa-4f37d39353f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgotten password?",
+      "targets": [
+        ["linkText=Forgotten password?", "linkText"],
+        ["css=.\\_6ltj > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgotten password?')]", "xpath:link"],
+        ["xpath=//form[@id='u_0_2_xG']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://web.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjc4NDQwMTcxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgotten password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6c11d3b-bf44-46c0-85c7-957d9c5b8727",
+      "comment": "",
+      "command": "click",
+      "target": "id=did_submit",
+      "targets": [
+        ["id=did_submit", "id"],
+        ["name=did_submit", "name"],
+        ["css=#did_submit", "css:finder"],
+        ["xpath=//button[@id='did_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44a85fb6-16cc-48fe-a7d1-ae02dd05b438",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pam",
+      "targets": [
+        ["css=.pam", "css:finder"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa8f7d87-881a-4918-a91c-ec6dc59db910",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.\\_9o4h",
+      "targets": [
+        ["css=.\\_9o4h", "css:finder"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Fill in at least one field to search for your account"
+    }, {
+      "id": "b55e0f06-24be-4425-9efb-06d2d0bbbecd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d9074b42-2197-4802-85a9-e706c991361c",
+    "name": "incomplete phone number",
+    "commands": [{
+      "id": "077e9cae-9d70-4d1b-9216-678e6a4b2405",
+      "comment": "",
+      "command": "open",
+      "target": "https://web.facebook.com/?_rdc=1&_rdr",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a60237b8-400a-4a15-b59d-e1000ad1332f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4c566d8-6e99-4c36-bded-a169d72552dc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgotten password?",
+      "targets": [
+        ["linkText=Forgotten password?", "linkText"],
+        ["css=.\\_6ltj > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgotten password?')]", "xpath:link"],
+        ["xpath=//form[@id='u_0_2_pU']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://web.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjc4NDQwMzE4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgotten password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6be036bc-640f-4e0f-9e66-256a7dd3a5d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=identify_email",
+      "targets": [
+        ["id=identify_email", "id"],
+        ["css=#identify_email", "css:finder"],
+        ["xpath=//input[@id='identify_email']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dadcd579-1e36-4d02-96c0-c1d571909538",
+      "comment": "",
+      "command": "type",
+      "target": "id=identify_email",
+      "targets": [
+        ["id=identify_email", "id"],
+        ["css=#identify_email", "css:finder"],
+        ["xpath=//input[@id='identify_email']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "0810231"
+    }, {
+      "id": "075b29e4-d289-4a29-bccd-43d30da5cbf1",
+      "comment": "",
+      "command": "click",
+      "target": "id=did_submit",
+      "targets": [
+        ["id=did_submit", "id"],
+        ["name=did_submit", "name"],
+        ["css=#did_submit", "css:finder"],
+        ["xpath=//button[@id='did_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f1a2bd8-99e6-413a-8c21-9a1a229fc344",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pam",
+      "targets": [
+        ["css=.pam", "css:finder"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ac23884-2c06-4264-95c1-72d7c58b2063",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.\\_9o4h",
+      "targets": [
+        ["css=.\\_9o4h", "css:finder"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Your search did not return any results. Please try again with other information."
+    }, {
+      "id": "5596265c-c6de-4959-aecb-afb5752c1359",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4f4a4e1f-da65-44fe-ae41-9331be379e6b",
+    "name": "incomplete email address",
+    "commands": [{
+      "id": "3224c949-8902-407d-9f16-e0d95510d5b8",
+      "comment": "",
+      "command": "open",
+      "target": "https://web.facebook.com/?_rdc=1&_rdr",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9d027a7-e9bf-4d6a-9c80-958a8d4e371c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3002736e-63d5-4a59-bfe0-f44a28989c1e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgotten password?",
+      "targets": [
+        ["linkText=Forgotten password?", "linkText"],
+        ["css=.\\_6ltj > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgotten password?')]", "xpath:link"],
+        ["xpath=//form[@id='u_0_2_Nc']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://web.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjc4NDQwNDIyLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgotten password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecc699dd-16b7-4b34-8458-07e44d5e721e",
+      "comment": "",
+      "command": "type",
+      "target": "id=identify_email",
+      "targets": [
+        ["id=identify_email", "id"],
+        ["css=#identify_email", "css:finder"],
+        ["xpath=//input[@id='identify_email']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "macoyoptions@gm"
+    }, {
+      "id": "872303cb-7c35-4434-b419-d12ab009bd9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=did_submit",
+      "targets": [
+        ["id=did_submit", "id"],
+        ["name=did_submit", "name"],
+        ["css=#did_submit", "css:finder"],
+        ["xpath=//button[@id='did_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36d0d108-9df0-4edf-adda-51223ef33997",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pam",
+      "targets": [
+        ["css=.pam", "css:finder"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79503a55-2ce9-4e0a-a899-97bc48857e95",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.\\_9o4h",
+      "targets": [
+        ["css=.\\_9o4h", "css:finder"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Your search did not return any results. Please try again with other information."
+    }, {
+      "id": "01673c41-a801-4a1a-944b-be21ca6fda0b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "56576b62-2a6c-4246-9b3b-0133097672ed",
+    "name": "just one numeric number cannot login",
+    "commands": [{
+      "id": "81fb8e77-727d-415d-9438-d4f86a805cad",
+      "comment": "",
+      "command": "open",
+      "target": "https://web.facebook.com/?_rdc=1&_rdr",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ef878ec-ed78-4f3a-8a3e-00d0f5a522c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fcf62aa-fd04-4c6f-95b0-926d15745702",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgotten password?",
+      "targets": [
+        ["linkText=Forgotten password?", "linkText"],
+        ["css=.\\_6ltj > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgotten password?')]", "xpath:link"],
+        ["xpath=//form[@id='u_0_2_uP']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://web.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjc4NDQyNzY4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgotten password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf723312-b112-4611-b51a-9538a144e3d8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=did_submit",
+      "targets": [
+        ["id=did_submit", "id"],
+        ["name=did_submit", "name"],
+        ["css=#did_submit", "css:finder"],
+        ["xpath=//button[@id='did_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2302bef-92a6-44f5-95eb-def4cc197e0d",
+      "comment": "",
+      "command": "type",
+      "target": "id=identify_email",
+      "targets": [
+        ["id=identify_email", "id"],
+        ["css=#identify_email", "css:finder"],
+        ["xpath=//input[@id='identify_email']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "1626709a-437e-458a-a343-d178b5e1efad",
+      "comment": "",
+      "command": "click",
+      "target": "id=did_submit",
+      "targets": [
+        ["id=did_submit", "id"],
+        ["name=did_submit", "name"],
+        ["css=#did_submit", "css:finder"],
+        ["xpath=//button[@id='did_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0671fb0-1a23-4265-9ad0-65bcaf5ecb2f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=did_submit",
+      "targets": [
+        ["id=did_submit", "id"],
+        ["name=did_submit", "name"],
+        ["css=#did_submit", "css:finder"],
+        ["xpath=//button[@id='did_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43176ea0-d13f-4a01-923c-d89c20026b69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pam",
+      "targets": [
+        ["css=.pam", "css:finder"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11ba439a-9fe2-402c-9bf0-4ce8d6ce9986",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.\\_9o4h",
+      "targets": [
+        ["css=.\\_9o4h", "css:finder"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Your search did not return any results. Please try again with other information."
+    }, {
+      "id": "2b045cff-d823-4481-8411-adaac4cf58cb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cef16add-a1be-484a-befb-bf90acd4d3c6",
+    "name": "both email and phone number cannot be input on the same field at once",
+    "commands": [{
+      "id": "1aa15722-dc6f-4503-9494-61e8d3886311",
+      "comment": "",
+      "command": "open",
+      "target": "https://web.facebook.com/?_rdc=1&_rdr",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0c42cc4-6aea-4764-b5de-70cb88d941de",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b61986a6-d950-45d5-8169-d2d2c57435da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgotten password?",
+      "targets": [
+        ["linkText=Forgotten password?", "linkText"],
+        ["css=.\\_6ltj > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgotten password?')]", "xpath:link"],
+        ["xpath=//form[@id='u_0_2_oc']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://web.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjc4NDQzMTMxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgotten password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be9e92ba-5213-40ae-b618-d8f3030ecef3",
+      "comment": "",
+      "command": "type",
+      "target": "id=identify_email",
+      "targets": [
+        ["id=identify_email", "id"],
+        ["css=#identify_email", "css:finder"],
+        ["xpath=//input[@id='identify_email']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "macoyoptions@gmail.com"
+    }, {
+      "id": "2a9b8985-7509-4d4c-8522-47fab0c4a9b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=identify_email",
+      "targets": [
+        ["id=identify_email", "id"],
+        ["css=#identify_email", "css:finder"],
+        ["xpath=//input[@id='identify_email']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "macoyoptions@gmail.com 08102312185"
+    }, {
+      "id": "aef16de5-04aa-47b5-89ea-676910cb0209",
+      "comment": "",
+      "command": "click",
+      "target": "id=did_submit",
+      "targets": [
+        ["id=did_submit", "id"],
+        ["name=did_submit", "name"],
+        ["css=#did_submit", "css:finder"],
+        ["xpath=//button[@id='did_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3acc6041-dc93-446b-b8b9-4027d90b8d71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pam",
+      "targets": [
+        ["css=.pam", "css:finder"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f938886-457b-4f1d-9b24-2ed30e40a202",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.\\_9o4h",
+      "targets": [
+        ["css=.\\_9o4h", "css:finder"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Your search did not return any results. Please try again with other information."
+    }, {
+      "id": "60b6b95f-2c20-4d0c-be73-33835b2bc791",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8fd7a11e-a849-4496-8dbe-6d9fcb04a50f",
+    "name": "unregistered email address",
+    "commands": [{
+      "id": "a24720d0-b882-495c-9fb8-f38cf3f6db21",
+      "comment": "",
+      "command": "open",
+      "target": "https://web.facebook.com/?_rdc=1&_rdr",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab3f3598-687c-408c-8da6-cfbdeb6e1667",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "575d5ef8-5589-4d85-ab23-6e0a8c07a8f3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgotten password?",
+      "targets": [
+        ["linkText=Forgotten password?", "linkText"],
+        ["css=.\\_6ltj > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgotten password?')]", "xpath:link"],
+        ["xpath=//form[@id='u_0_2_VB']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://web.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjc4NDQ0Nzk1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgotten password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d940a76-899a-426b-9c7c-9c09ecdfbbf4",
+      "comment": "",
+      "command": "type",
+      "target": "id=identify_email",
+      "targets": [
+        ["id=identify_email", "id"],
+        ["css=#identify_email", "css:finder"],
+        ["xpath=//input[@id='identify_email']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "tayodaniek@gmail.com"
+    }, {
+      "id": "5270b71f-9a2c-4120-ac13-3a782b2e31ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=did_submit",
+      "targets": [
+        ["id=did_submit", "id"],
+        ["name=did_submit", "name"],
+        ["css=#did_submit", "css:finder"],
+        ["xpath=//button[@id='did_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef85f871-75f1-444c-907a-8eaa433fad89",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pam",
+      "targets": [
+        ["css=.pam", "css:finder"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d14bed48-f5b9-43c9-8b0e-87a973dc567e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.\\_9o4h",
+      "targets": [
+        ["css=.\\_9o4h", "css:finder"],
+        ["xpath=//form[@id='identify_yourself_flow']/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Your search did not return any results. Please try again with other information."
+    }, {
+      "id": "36b7f955-ab34-49fc-b957-274bc8f62f06",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "427304f1-4bdd-44fa-882f-2ef4256ef053",
+    "name": "forgotten password/find account",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["889b1b0f-99c4-4f6f-8080-3b7efa05b137"]
+  }],
+  "urls": ["https://www.facebook.com/"],
+  "plugins": []
+}
